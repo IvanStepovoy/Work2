@@ -26,21 +26,21 @@ public class Task3 {
 
         String anotheInpt = "This";
 
-        //boolean e = inpt.equals(anotheInpt);
-        System.out.println("Строки одинаковы: " + inpt.equals(anotheInpt) );
-        /* if (e = true) {
+        boolean e = inpt.equals(anotheInpt);
+        //  System.out.println("Строки одинаковы: " + inpt.equals(anotheInpt) );
+         if (e == true) {
             System.out.println("Строки одинаковы.");
         } else {
             System.out.println("Строки НЕ одинаковы.");
-        } */
+        }
 
-        //boolean f = inpt.equalsIgnoreCase(anotheInpt);
-        System.out.println("Строки одинаковы вне зависимости от регистра: " + inpt.equalsIgnoreCase(anotheInpt) );
-        /* if (f = true) {
+        boolean f = inpt.equalsIgnoreCase(anotheInpt);
+       // System.out.println("Строки одинаковы вне зависимости от регистра: " + inpt.equalsIgnoreCase(anotheInpt) );
+         if (f == true) {
             System.out.println("Строки одинаковы, независимо от регистра.");
         } else {
             System.out.println("Строки НЕ одинаковы, независимо от регистра.");
-        } */
+        }
 
 
         //Введите слово: This
